@@ -1,2 +1,2 @@
-# AED
-Algoritmos y Estructuras de Datos K1051
+# Algoritmos y Estructuras de Datos 
+--K1051
