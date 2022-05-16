@@ -1,46 +1,44 @@
 #include <iostream>
 #include <cassert>
 
-int main(int argc, char const *argv[])
+int main()
 {
 //Tipo de dato Booleano
+    assert (true);
+    assert (false==false);
+    assert (false!=true);
+    assert (not false);
+    assert (false == not true);
+    assert (true and true);
+    assert (false or true);
+    assert ((false and false) == false);
 
-    bool A = true;
-    bool B = false;
+// Tipo de dato double
 
-    assert(A and B == false);
-    assert(A or B == true);
-    assert(not A == false);
+    assert (2.0==1.0+1.0);
+    assert (1.0==0.1*10.0);
+    assert (2.1 - 0.1==2.0);
+    assert (1.0!=0.1+0.1+0.1+0.1+0.1+0.1+0.1+0.1+0.1+0.1);
 
 //Tipo de dato Entero
 
-    int entero_1 = 3;
-    int entero_2 = 7;
-
-    assert(entero_1 + entero_2 == 10);
-    assert(entero_1 - entero_2 == -4);
-    assert(entero_1 * entero_2 == 21);
-    assert(entero_1 / entero_2 == 0);
+    assert(5 + 5 == 10);
+    assert(-2 - 2 == -4);
+    assert(7 * 7 != 21);
+    assert(1 / 7 == 0);
+    assert(2 > -1);
 
 //Tipo de dato Caracter
-    char letra_1 = 'A';
-    char letra_2 = 'B';
     
-    assert(letra_1 + 1 == letra_2);
-    assert(letra_2 - 1 == 'A');
-    assert(letra_2 + letra_1 == 'C');
-
-//Tipo de dato con coma flotante
-
-    float realf_1 = 1.1;
-    float realf_2 = 5.3;
-
-    assert(realf_1 + realf_2 == 6.4);
-    assert(realf_1 - realf_2 == -4.2);
-    assert(realf_1 * realf_2 == 5.83);
-    assert(realf_1 / realf_2 == 0.2075471698);
-
-    
+    assert('A' + 1 == 'B');
+    assert('B' - 1 == 'A');
+    assert('A' + 'B' == 131);
+    assert('A'!='a');
+    assert('G'>'A');
+//Tipo de dato unsigned
 
     return 0;
 }
+
+
+    
