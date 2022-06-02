@@ -1,6 +1,7 @@
-#include <iostream>
 #include <cassert>
+#include <string>
 
+using namespace std::string_literals;
 int main()
 {
 //Tipo de dato Booleano
@@ -37,7 +38,27 @@ int main()
     assert('G'>'A');
 //Tipo de dato unsigned
 
-    return 0;
+    assert( 22u + 3u == 25u);
+    assert( 22u - 3u == 19);
+    assert( 2u * 2u == 4u);
+    assert( 2u / 2u == 1u);
+    assert( 10u > 5u);
+    assert(-1u -1u == -2u);
+//Tipo de dato String
+
+    assert("hola mundo" == "hola"s + " mundo"s);
+    assert("hola mundo" != "hola"s + "mundo"s);
+    assert("largo_cadena"s.length() == 12);
+
+// Tipo de dato float
+
+    assert (2.0f==1.0f+1.0f);
+    assert (1.0f==0.1f*10.0f);
+    assert (2.1f - 0.1f!=2.0f);
+    assert (2.0f * 1.0f == 2.0f);
+
+
+
 }
 
 
