@@ -9,3 +9,8 @@ Demostrar el manejo de funciones y valores de punto flotante.
 - Escribir las pruebas.
 - Escribir los prototipos.
 - Escribir las definiciones.
+
+
+### definicion matematica
+
+$$ R^3$$
