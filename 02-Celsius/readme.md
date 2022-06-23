@@ -13,4 +13,4 @@ Demostrar el manejo de funciones y valores de punto flotante.
 
 ### definicion matematica de funcion celcius
 
-$$ celcius: R-->R / celcius(f) = 5/9*(f-32) $$
+$$ celcius: R-->R / celcius(f) = \frac{5}{9}*(f-32) $$
