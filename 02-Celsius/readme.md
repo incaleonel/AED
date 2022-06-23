@@ -11,6 +11,6 @@ Demostrar el manejo de funciones y valores de punto flotante.
 - Escribir las definiciones.
 
 
-### definicion matematica
+### definicion matematica de funcion celcius
 
-$$ R^3$$
+$$ R->R / celcius(f) = 5*(f-32)/9$$
